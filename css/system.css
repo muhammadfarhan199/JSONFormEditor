@@ -1,0 +1,206 @@
+﻿:root {
+    --site-color: #4d2a69;
+    --site-color-light: #deceeb;
+    --site-light: #9d6cc4;
+}
+
+.login.login-4 .login-container .login-content .wizard-nav .wizard-steps .wizard-step[data-wizard-state="done"] .wizard-icon .wizard-check {
+    color: var(--site-color) !important;
+}
+
+.login.login-4 .login-container .login-content .wizard-nav .wizard-steps .wizard-step[data-wizard-state="done"] .wizard-icon,
+.login.login-4 .login-container .login-content .wizard-nav .wizard-steps .wizard-step[data-wizard-state="current"] .wizard-icon {
+    background-color: #d5c0e6;
+}
+
+    .login.login-4 .login-container .login-content .wizard-nav .wizard-steps .wizard-step[data-wizard-state="current"] .wizard-icon .wizard-number {
+        color: var(--site-color) !important;
+    }
+
+.login-aside {
+    background-color: var(--site-color) !important;
+}
+
+#hd-container {
+    max-width: 100% !important;
+}
+
+.text-site:hover {
+    color: var(--site-light) !important;
+}
+
+.login-aside {
+    background: var(--site-color) !important;
+}
+
+.white-sign-up:hover {
+    background: var(--site-light) !important;
+    color: #fff !important;
+    border-color: var(--site-light) !important;
+    transition: .5s;
+}
+
+.hd-required {
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--danger);
+}
+
+.btn-site {
+    background-color: var(--site-color);
+    color: white;
+}
+
+    .btn-site:hover {
+        color: white;
+    }
+
+.btn-light-site {
+    background-color: var(--site-color-light);
+    color: var(--site-color);
+    font-weight: 600;
+    transition: .3s;
+}
+
+    .btn-light-site:hover {
+        color: white;
+        background: var(--site-color);
+        transition: .3s;
+    }
+
+.btn-site-light {
+    background-color: var(--site-light) !important;
+}
+
+.bg-site {
+    background: var(--site-color);
+}
+
+.nav-link:hover {
+    color: var(--site-color) !important;
+}
+
+.svg-icon.svg-icon-site svg g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+    fill: var(--site-color) !important;
+}
+
+.svg-icon.svg-icon-site-light svg g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+    fill: var(--site-light) !important;
+}
+
+.text-site {
+    color: var(--site-color);
+}
+
+.navi .navi-item .navi-link:hover {
+    color: var(--site-color) !important;
+}
+
+.navi .navi-item:hover .navi-text {
+    color: var(--site-color) !important;
+}
+
+.form-control:focus {
+    color: #3F4254;
+    background-color: #ffffff;
+    /* border-color: #deceeb; */
+    border: 2px solid var(--site-light) !important;
+    /* outline: 0; */
+}
+
+.radio.radio-site > input:checked ~ span {
+    background-color: var(--site-color);
+}
+
+.checkbox.checkbox-site > input:checked ~ span {
+    background-color: var(--site-color);
+}
+
+.checkbox.checkbox-site > span {
+    border: 1px solid var(--site-color);
+}
+
+.checkbox.checkbox-site2 > input:checked ~ span {
+    background-color: var(--site-color);
+    border: 1px solid white;
+}
+
+.checkbox.checkbox-site2 > span {
+    border: 1px solid var(--site-color);
+}
+
+.quick-search-form input:focus {
+    border: none !important;
+}
+
+
+@media (min-width: 992px) {
+    .header-fixed.subheader-fixed.subheader-enabled .wrapper {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hd-mt-4 {
+        margin-top: 30px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hd-sm-text-left {
+        text-align: left !important;
+    }
+
+    .hd-mt-2 {
+        margin-top: 10px;
+    }
+
+    .hd-mt-4 {
+        margin-top: 30px !important;
+    }
+
+    .hd-new-line {
+        display: block;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .header-mobile .burger-icon span::before, .header-mobile .burger-icon span::after {
+        background: var(--site-color-light) !important;
+    }
+}
+
+.btn.btn-hover-text-site:not(:disabled):not(.disabled):active:not(.btn-text), .btn.btn-hover-text-site:not(:disabled):not(.disabled).active, .show > .btn.btn-hover-text-site.dropdown-toggle, .show .btn.btn-hover-text-site.btn-dropdown {
+    color: var(--site-light) !important;
+}
+
+#kt_scrolltop {
+    background: var(--site-color);
+}
+
+.site-table-thead {
+    background: var(--site-color);
+    color: white;
+}
+
+.aside, .aside-menu {
+    background-color: var(--site-color) !important;
+}
+
+    .aside-menu .menu-nav > .menu-item > .menu-heading .menu-text, .aside-menu .menu-nav > .menu-item > .menu-link .menu-text {
+        color: white !important;
+    }
+
+.menu-item a:hover {
+    background: #2e193f !important;
+}
+
+@media (min-width: 992px) {
+    .brand {
+        background-color: #2e193f !important;
+    }
+}

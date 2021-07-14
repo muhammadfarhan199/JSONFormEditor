@@ -1,0 +1,4117 @@
+{
+    "Screens": [
+      {
+        "Title": "Demographic Data",
+        "PageMetaTitle": "Demographic Data",
+        "NavName": "Demographic Data",
+        "NavLink": "demographic-data",
+        "NavChecked": false,
+        "Sections": [
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "Please complete the following form in its entirety"
+          },
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "<span class=\"mr-10\"><span class=\"hd-required\">*</span> indicates a required filed</span>"
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Name:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "First",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "first",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Middle (Optional)",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "middle",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Last",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "required": true,
+                          "name": "last",
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Gender:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "full",
+                    "columns": [
+                      {
+                        "type": "radio",
+                        "name": "gender",
+                        "options": [
+                          {
+                            "label": "Male",
+                            "checked": true
+                          },
+                          {
+                            "label": "Female",
+                            "checked": false
+                          },
+                          {
+                            "label": "Trans",
+                            "checked": false
+                          },
+                          {
+                            "label": "Other",
+                            "checked": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "SSN:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "simple_text",
+                    "text": "XXX453453"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "NYU ID:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "simple_text",
+                    "text": "12345678"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Year of Graduation:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_columns",
+                    "columns": [
+                      {
+                        "type": "select",
+                        "required": true,
+                        "placeholder": null,
+                        "name": "year-of-graduation",
+                        "options": [
+                          {
+                            "label": "2000",
+                            "value": "2000"
+                          },
+                          {
+                            "label": "2001",
+                            "value": "2001"
+                          },
+                          {
+                            "label": "2002",
+                            "value": "2002"
+                          },
+                          {
+                            "label": "2003",
+                            "value": "2003"
+                          },
+                          {
+                            "label": "2004",
+                            "value": "2004"
+                          },
+                          {
+                            "label": "2005",
+                            "value": "2005"
+                          },
+                          {
+                            "label": "2006",
+                            "value": "2006"
+                          },
+                          {
+                            "label": "2007",
+                            "value": "2007"
+                          },
+                          {
+                            "label": "2008",
+                            "value": "2008"
+                          },
+                          {
+                            "label": "2009",
+                            "value": "2009"
+                          },
+                          {
+                            "label": "2010",
+                            "value": "2010"
+                          },
+                          {
+                            "label": "2011",
+                            "value": "2011"
+                          },
+                          {
+                            "label": "2012",
+                            "value": "2012"
+                          },
+                          {
+                            "label": "2013",
+                            "value": "2013"
+                          },
+                          {
+                            "label": "2014",
+                            "value": "2014"
+                          },
+                          {
+                            "label": "2015",
+                            "value": "2015"
+                          },
+                          {
+                            "label": "2016",
+                            "value": "2016"
+                          },
+                          {
+                            "label": "2017",
+                            "value": "2017"
+                          },
+                          {
+                            "label": "2018",
+                            "value": "2018"
+                          },
+                          {
+                            "label": "2019",
+                            "value": "2019"
+                          },
+                          {
+                            "label": "2020",
+                            "value": "2020"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Maritial Status:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_columns",
+                    "columns": [
+                      {
+                        "type": "select",
+                        "required": true,
+                        "placeholder": null,
+                        "name": "maritial-status",
+                        "options": [
+                          {
+                            "label": "Married (Domestic Partner)",
+                            "value": "Married (Domestic Partner)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Spouse/Domestic Partner's Name:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "First",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "first",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Middle (Optional)",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "middle",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Last",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "required": true,
+                          "name": "last",
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "full",
+                    "columns": [
+                      {
+                        "type": "HTML_P",
+                        "text": "<span class=\"hd-required mr-2\">*</span>Is your Spouse/ Domestic Partner also an LRAP Participant?"
+                      },
+                      {
+                        "type": "radio",
+                        "name": "lrap-paricipant",
+                        "options": [
+                          {
+                            "label": "Yes",
+                            "checked": true
+                          },
+                          {
+                            "label": "No",
+                            "checked": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Number of Dependencies:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_columns",
+                    "columns": [
+                      {
+                        "type": "input_number",
+                        "required": false,
+                        "placeholder": null,
+                        "name": "number-of-dependencies"
+                      },
+                      {
+                        "type": "HTML_Four_Col_SPAN",
+                        "text": "(If you have no dependencies, enter 0)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Country:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "one_column",
+                    "columns": [
+                      {
+                        "type": "select",
+                        "required": true,
+                        "placeholder": null,
+                        "name": "country",
+                        "options": [
+                          {
+                            "label": "Bangladesh",
+                            "value": "Bangladesh",
+                            "selected": false
+                          },
+                          {
+                            "label": "India",
+                            "value": "India",
+                            "selected": false
+                          },
+                          {
+                            "label": "United States",
+                            "value": "United States",
+                            "selected": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Address:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_full_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Address 1",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "address1",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Address 2 (if applicable)",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "address2",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "City",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "city",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Address 1",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "select",
+                          "name": "address1",
+                          "required": true,
+                          "placeholder": null,
+                          "options": [
+                            {
+                              "label": "New York",
+                              "value": "New York",
+                              "selected": true
+                            },
+                            {
+                              "label": "Florida",
+                              "value": "Florida",
+                              "selected": false
+                            },
+                            {
+                              "label": "Texas",
+                              "value": "Texas",
+                              "selected": false
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Zip/Postal Code",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "required": true,
+                          "name": "zip-postal-code",
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "full",
+                    "columns": [
+                      {
+                        "type": "HTML_P",
+                        "text": "<span class=\"hd-required mr-2\">*</span>Is your Spouse/ Domestic Partner also an LRAP Participant?"
+                      },
+                      {
+                        "type": "radio",
+                        "name": "lrap-paricipant-1",
+                        "options": [
+                          {
+                            "label": "Yes",
+                            "checked": true
+                          },
+                          {
+                            "label": "No",
+                            "checked": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Country of Citizenship:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "one_column",
+                    "columns": [
+                      {
+                        "type": "select",
+                        "required": true,
+                        "placeholder": null,
+                        "name": "country",
+                        "options": [
+                          {
+                            "label": "Bangladesh",
+                            "value": "Bangladesh",
+                            "selected": false
+                          },
+                          {
+                            "label": "India",
+                            "value": "India",
+                            "selected": false
+                          },
+                          {
+                            "label": "United States",
+                            "value": "United States",
+                            "selected": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Email:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_full_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Primary",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "primary",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Secondary (Optional)",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "secondary",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "simple_text",
+                    "text": "Please enter at least a home or mobile phone number"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Phone:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Home",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "home",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Mobile",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "mobile",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Fax (Optional)",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "required": false,
+                          "name": "fax",
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "full",
+                    "columns": [
+                      {
+                        "type": "HTML_P",
+                        "text": "<span class=\"hd-required\"> *</span> I was the recipient of the following names scholarship program during my tenure at NYU School of Law:"
+                      },
+                      {
+                        "type": "radio-list",
+                        "name": "scholarship-program",
+                        "options": [
+                          {
+                            "label": "AnBryce Scholarship",
+                            "checked": true
+                          },
+                          {
+                            "label": "Furman Academic Scholarship",
+                            "checked": false
+                          },
+                          {
+                            "label": "Furman Public Policy Scholarship",
+                            "checked": false
+                          },
+                          {
+                            "label": "Institute for International Law and Justice Scholarship",
+                            "checked": false
+                          },
+                          {
+                            "label": "Latinx Rights Scholarship",
+                            "checked": false
+                          },
+                          {
+                            "label": "Leadership Program in Law and Business Scholarship",
+                            "checked": false
+                          },
+                          {
+                            "label": "Root-Tilden-Kern Public Interest Scholarship",
+                            "checked": false
+                          },
+                          {
+                            "label": "Sinsheimer Service Scholarship",
+                            "checked": false
+                          },
+                          {
+                            "label": "None of the above",
+                            "checked": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "footer_buttons",
+            "buttons": [
+              {
+                "text": "Save",
+                "isLight": false,
+                "isSite": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Employment Information",
+        "PageMetaTitle": "Employment Information",
+        "NavName": "Employment Information",
+        "NavLink": "employment-information",
+        "NavChecked": true,
+        "Sections": [
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "Please complete the following form in its entirety. Any monetary values should be whole numbers no more than eight digits long with no dollar signs, decimals, or commas."
+          },
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "<span class=\"mr-10\"><span class=\"hd-required\">*</span> indicates a required filed</span>"
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "<span class=\"hd-required\"> *</span> Please choose one of the following that best describes your employment prior to this application"
+              },
+              {
+                "type": "radio-list",
+                "name": "custom-list",
+                "options": [
+                  {
+                    "label": "I am a first time applicant. I have been employed in an LRAP eligible position since graduating from NYU School of Law.",
+                    "checked": true
+                  },
+                  {
+                    "label": "I am a first time applicant. I have been employed in non-LRAP eligible employment (typically a private firm) since graduating from NYU School of Law.",
+                    "checked": false
+                  },
+                  {
+                    "label": "I am continuing/returning participant. I have been employed in an LRAP eligible position since graduating from NYU School of Law.",
+                    "checked": false
+                  },
+                  {
+                    "label": "I am continuing/returning participant. I have previously submitted the Non-LRAP Eligible Employment Form and have remained in LRAP eligible employment since my previous submission.",
+                    "checked": false
+                  },
+                  {
+                    "label": "I am continuing/returning participant. I am renewing my application to earn forgiveness and do not anticipate being eligible for LRAP benefits.",
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "<span class=\"hd-required mr-2\">*</span>Will you be employed by more than one employer at the same time during the program year?"
+              },
+              {
+                "type": "radio",
+                "name": "employed-program",
+                "options": [
+                  {
+                    "label": "Yes",
+                    "checked": true
+                  },
+                  {
+                    "label": "No",
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two-cols",
+            "columns": [
+              {
+                "type": "HTML_SPAN",
+                "text": "Multiple Employers Explanation/Comments: <span class=\"hd-required\"></span>"
+              },
+              {
+                "type": "textarea",
+                "name": "multiple-employers-explanation-comments",
+                "required": false,
+                "placeholder": null,
+                "cols": "30",
+                "rows": "5"
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "<span class=\"hd-required mr-2\">*</span>Do you anticipate receiving any assistance in the repayment of educational loans from an organization other than NYU? (Please note: if yes, you will be asked to provide additional documentation describing these benefits)"
+              },
+              {
+                "type": "radio",
+                "name": "repayment-of-educational-loans",
+                "options": [
+                  {
+                    "label": "Yes",
+                    "checked": true
+                  },
+                  {
+                    "label": "No",
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two-cols",
+            "columns": [
+              {
+                "type": "HTML_SPAN",
+                "text": "Source of assistance (Name of Organization): <span class=\"hd-required\"></span>"
+              },
+              {
+                "type": "input",
+                "name": "source-of-assistance",
+                "required": false,
+                "placeholder": null
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "<span class=\"hd-required mr-2\">*</span>Type of assistance"
+              },
+              {
+                "type": "radio",
+                "name": "type-of-assistance",
+                "options": [
+                  {
+                    "label": "Employer",
+                    "checked": true
+                  },
+                  {
+                    "label": "State",
+                    "checked": false
+                  },
+                  {
+                    "label": "Federal",
+                    "checked": false
+                  },
+                  {
+                    "label": "Non-Profit",
+                    "checked": false
+                  },
+                  {
+                    "label": "Other",
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two-cols",
+            "columns": [
+              {
+                "type": "HTML_SPAN",
+                "text": "Anticipated amount of assistance: <span class=\"hd-required\"></span>"
+              },
+              {
+                "type": "icon_input",
+                "name": "anticipated-amount-of-assistance",
+                "required": false,
+                "placeholder": "0.00",
+                "front_icon": "$",
+                "back_icon": ".00"
+              }
+            ]
+          },
+          {
+            "layout": "two-cols",
+            "columns": [
+              {
+                "type": "HTML_SPAN",
+                "text": "Comments or Additional Information: <span class=\"hd-required\"></span>"
+              },
+              {
+                "type": "textarea",
+                "name": "comments-or-additional-information",
+                "required": false,
+                "placeholder": null,
+                "cols": "30",
+                "rows": "5"
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "<span class=\"hd-required mr-2\">*</span>Do you anticipate any additional income from employment not listed on this application?"
+              },
+              {
+                "type": "radio",
+                "name": "additional-income-from-employment",
+                "options": [
+                  {
+                    "label": "Yes",
+                    "checked": true
+                  },
+                  {
+                    "label": "No",
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two-cols",
+            "columns": [
+              {
+                "type": "HTML_SPAN",
+                "text": "Other Income Explanation/Comments: <span class=\"hd-required\"></span>"
+              },
+              {
+                "type": "textarea",
+                "name": "other-income-explanation-comments",
+                "required": false,
+                "placeholder": null,
+                "cols": "30",
+                "rows": "5"
+              }
+            ]
+          },
+          {
+            "layout": "footer_buttons",
+            "buttons": [
+              {
+                "text": "Save",
+                "isLight": false,
+                "isSite": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Employer Form",
+        "PageMetaTitle": "Employer Form",
+        "NavName": "Employer Form",
+        "NavLink": "employer-form",
+        "NavChecked": false,
+        "Sections": [
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "<span class=\"mr-10\"><span class=\"hd-required\">*</span> indicates a required filed</span>"
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Employer ID:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "employer-id",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Employer's Name:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_full_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Name 1",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "name1",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Name 2 ex: (department/divisions/jurisdiction/project)",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "name2",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Title/Position:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_full_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "title-position",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Country:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_full_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "select",
+                          "name": "country",
+                          "required": true,
+                          "placeholder": null,
+                          "options": [
+                            {
+                              "label": "Bangladesh",
+                              "value": "Bangladesh",
+                              "selected": false
+                            },
+                            {
+                              "label": "India",
+                              "value": "India",
+                              "selected": false
+                            },
+                            {
+                              "label": "United States",
+                              "value": "United States",
+                              "selected": true
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Address:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "two_full_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Address 1",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "address1",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Address 2 (if applicable)",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "address2",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "City",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "city",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Address 1",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "select",
+                          "name": "address1",
+                          "required": true,
+                          "placeholder": null,
+                          "options": [
+                            {
+                              "label": "New York",
+                              "value": "New York",
+                              "selected": true
+                            },
+                            {
+                              "label": "Florida",
+                              "value": "Florida",
+                              "selected": false
+                            },
+                            {
+                              "label": "Texas",
+                              "value": "Texas",
+                              "selected": false
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Zip/Postal Code",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "required": true,
+                          "name": "zip-postal-code",
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Phone:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Primary",
+                          "required": true
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "primary",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      },
+                      {
+                        "top_column": {
+                          "type": "label",
+                          "text": "Fax (Optional)",
+                          "required": false
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "required": false,
+                          "name": "fax",
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Employer Type:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "one_column",
+                    "columns": [
+                      {
+                        "type": "select",
+                        "required": false,
+                        "placeholder": null,
+                        "name": "employer-type",
+                        "options": [
+                          {
+                            "label": "Type 1",
+                            "value": "Type 1",
+                            "selected": true
+                          },
+                          {
+                            "label": "Type 2",
+                            "value": "Type 2",
+                            "selected": false
+                          },
+                          {
+                            "label": "Type 3",
+                            "value": "Type 3",
+                            "selected": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Employer Tax Identification Number:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "employer-tax-identification-number",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Employment Start Date:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "employment-start-date",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Employment End Date:",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "employment-end-date",
+                          "required": false,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Employment Hours Per Week:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "input",
+                          "name": "employment-hours-per-week",
+                          "required": true,
+                          "placeholder": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "How Often Are You Paid:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "one_column",
+                    "columns": [
+                      {
+                        "type": "select",
+                        "required": false,
+                        "placeholder": null,
+                        "name": "employer-type",
+                        "options": [
+                          {
+                            "label": "Monthly",
+                            "value": "Monthly",
+                            "selected": true
+                          },
+                          {
+                            "label": "Half-Yearly",
+                            "value": "Half-Yearly",
+                            "selected": false
+                          },
+                          {
+                            "label": "Yearly",
+                            "value": "Yearly",
+                            "selected": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Annual Gross Salary (2021):",
+                    "required": false,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "one_column",
+                    "columns": [
+                      {
+                        "type": "icon_input",
+                        "required": false,
+                        "placeholder": "0.00",
+                        "name": "annual-gross-salary",
+                        "front_icon": "$",
+                        "back_icon": ".00"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "footer_buttons",
+            "buttons": [
+              {
+                "text": "Save",
+                "isLight": false,
+                "isSite": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Employer Grid",
+        "PageMetaTitle": "Employees Grid",
+        "NavName": "Employer Grid",
+        "NavLink": "employees-grid",
+        "NavChecked": true,
+        "Sections": [
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "Click on the 'Add Employer' button to submit information about your current employer."
+          },
+          {
+            "layout": "table",
+            "columns": [
+              {
+                "title": ""
+              },
+              {
+                "title": "Employer's Name"
+              },
+              {
+                "title": "Employer Type"
+              },
+              {
+                "title": "Employer Tax ID"
+              },
+              {
+                "title": "Employment Start Date"
+              },
+              {
+                "title": "Employment Hours Per Week"
+              },
+              {
+                "title": "How Often You are Paid"
+              },
+              {
+                "title": "Annual Gross Salary (2021)"
+              }
+            ],
+            "rows": [
+              {
+                "data": [
+                  {
+                    "type": "checkbox",
+                    "name": "employees_grid"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Kristof Reggers",
+                    "isBold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "Clark",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "24324242",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "2019-05-25",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "35",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "Monthly",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "48000",
+                    "isBold": false
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "checkbox",
+                    "name": "employees_grid"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Kristof Reggers",
+                    "isBold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "Clark",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "24324242",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "2019-05-25",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "35",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "Monthly",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "48000",
+                    "isBold": false
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "checkbox",
+                    "name": "employees_grid"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Kristof Reggers",
+                    "isBold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "Clark",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "24324242",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "2019-05-25",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "35",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "Monthly",
+                    "isBold": false
+                  },
+                  {
+                    "type": "text",
+                    "text": "48000",
+                    "isBold": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "footer_buttons",
+            "buttons": [
+              {
+                "text": "Add Employer",
+                "isLight": true,
+                "isSite": false
+              },
+              {
+                "text": "Delete Selected Employer",
+                "isLight": false,
+                "isSite": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Statement of Net Worth",
+        "PageMetaTitle": "Statement of Networth",
+        "NavName": "Statement of Net Worth",
+        "NavLink": "statement-of-net-worth",
+        "NavChecked": false,
+        "Sections": [
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "Please complete the following form in its entirety. Any monetary values should be whole numbers no more than eight digits long with no dollar signs, decimals, or commas. You must enter a value in each required box. Enter a '0' if not applicable."
+          },
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "<span class=\"mr-10\"><span class=\"hd-required\">*</span> indicates a required filed</span>"
+          },
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "<span class=\"text-uppercase font-weight-bolder\">Applicant and spouse/demestic partner</span>"
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "isRemoveMarginBottom": true,
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "HTML_P",
+                          "text": "<span class=\"text-uppercase font-weight-bolder\">ASSETS</span>"
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "HTML_P",
+                          "text": "<span class=\"text-uppercase font-weight-bolder\">LIABILITIES</span>"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "HTML_P",
+                          "text": "<span class=\"font-weigth-bold\">What is it worth now?</span>"
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "HTML_P",
+                          "text": "<span class=\"font-weigth-bold\">What is owed on it?</span>"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Home, Condo, Co-op:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "home-condo-co-op-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Mortage:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "mortage-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Other Real State:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "other-real-state-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "other-real-state-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Car:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "car-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "car-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Business:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "business-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "business-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Cash, Checking, Savings:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "cash-checking-savings-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Qualified Retirement Assets:",
+                    "required": true,
+                    "isDescriptionAvailable": true,
+                    "descriptionText": "(IRA, Keogh, 401(k), 403(b), etc.)",
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "qualified-retirement-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "qualified-retirement-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Other Investments:",
+                    "isDescriptionAvailable": true,
+                    "descriptionText": "(stocks, bonds, CDs, etc.)",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "other-invenstments-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "All Outstanding Educational Loans:",
+                    "isDescriptionAvailable": true,
+                    "descriptionText": "(ALL Undergraduate, Graduate, & Professional loans)",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "all-outstanding-educational-loans-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Consumer Debt:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "customer-debt-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Other Item:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "other-item-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "other-item-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "",
+                    "required": false,
+                    "isAvailable": false
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "full",
+                    "columns": [
+                      {
+                        "type": "button",
+                        "text": "Add Item",
+                        "isLight": false,
+                        "isSite": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Totals:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "totals-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      },
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "totals-liabilities",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Total Net Worth:",
+                    "isDescriptionAvailable": true,
+                    "descriptionText": "(total Assets minus total Liabilities)",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "three_columns",
+                    "columns": [
+                      {
+                        "top_column": {
+                        },
+                        "bottom_column": {
+                          "type": "icon_input",
+                          "name": "total-net-worth-assets",
+                          "required": true,
+                          "placeholder": "0.00",
+                          "front_icon": "$",
+                          "back_icon": ".00"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "two_columns",
+            "columns": [
+              {
+                "left_column": [
+                  {
+                    "layout": "full",
+                    "type": "label",
+                    "text": "Brief Explanation for the 'other' field:",
+                    "required": true,
+                    "isAvailable": true
+                  }
+                ],
+                "right_column": [
+                  {
+                    "layout": "full",
+                    "columns": [
+                      {
+                        "type": "textarea",
+                        "name": "brief-explanation-for-the-other-field",
+                        "required": true,
+                        "placeholder": null,
+                        "cols": "30",
+                        "rows": "3"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "footer_buttons",
+            "buttons": [
+              {
+                "text": "Save",
+                "isLight": false,
+                "isSite": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Participant Budget",
+        "PageMetaTitle": "Participant Budget",
+        "NavName": "Participant Budget",
+        "NavLink": "participant-budget",
+        "NavChecked": false,
+        "Sections": [
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "This section allows a LRAP Administrator to fill in an applicant's Student Budget. Any monetary values should be whole numbers no more than eight digits long with no dollar signs, decimals, or commas."
+          },
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "Note: The Total Summer Earnings value displayed below calculates an amount that exceeds $12,000 for each three years (or $36,000)."
+          },
+          {
+            "layout": "full",
+            "type": "HTML_ROW",
+            "text": "<div class='col-md-2'>Total Law Loans:</div><div class='col-md-5'><p class='text-uppercase font-weight-bolder'>$122886.00</p></div><div class='col-md-5'></div>"
+          },
+          {
+            "layout": "full",
+            "type": "HTML_ROW",
+            "text": "<div class='col-md-2'>Total Adjusted Law Loans:</div><div class='col-md-5'><p class='text-uppercase font-weight-bolder'>$122886.00</p></div><div class='col-md-5'></div>"
+          },
+          {
+            "layout": "table_advance",
+            "columns": [
+              {
+                "title": ""
+              },
+              {
+                "title": "Academic Year (AY)"
+              },
+              {
+                "title": "Budget"
+              },
+              {
+                "title": "Aid"
+              },
+              {
+                "title": "Student Contribution"
+              },
+              {
+                "title": "Summer Earnings"
+              }
+            ],
+            "rows": [
+              {
+                "data": [
+                  {
+                    "type": "text",
+                    "text": "1L"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "academic-year-1",
+                    "options": [
+                      {
+                        "label": "2015-2016",
+                        "value": "2015-2016",
+                        "isSelected": true
+                      },
+                      {
+                        "label": "2016-2017",
+                        "value": "2016-2017",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "2017-2018",
+                        "value": "2017-2018",
+                        "isSelected": false
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "budget-1",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 85964
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "aid-1",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 15000
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "student-contribution-1",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 5000
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "summer-earnings-1",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "text",
+                    "text": "2L"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "academic-year-2",
+                    "options": [
+                      {
+                        "label": "2015-2016",
+                        "value": "2015-2016",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "2016-2017",
+                        "value": "2016-2017",
+                        "isSelected": true
+                      },
+                      {
+                        "label": "2017-2018",
+                        "value": "2017-2018",
+                        "isSelected": false
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "budget-2",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 85964
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "aid-2",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 15000
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "student-contribution-2",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 5000
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "summer-earnings-2",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "text",
+                    "text": "3L"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "academic-year-3",
+                    "options": [
+                      {
+                        "label": "2015-2016",
+                        "value": "2015-2016",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "2016-2017",
+                        "value": "2016-2017",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "2017-2018",
+                        "value": "2017-2018",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "budget-3",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 85964
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "aid-3",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 15000
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "student-contribution-3",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 5000
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "summer-earnings-3",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "text",
+                    "text": "Totals:"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "academic-year-4",
+                    "options": [
+                    ],
+                    "isAvailable": false
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "budget-4",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 85964
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "aid-4",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 15000
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "student-contribution-4",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00",
+                    "value": 5000
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "summer-earnings-4",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "six-columns",
+            "rows": [
+              {
+                "marginBottomClass": "mb-4",
+                "columns": [
+                  {
+                    "type": "label",
+                    "text": "Computer Adj:",
+                    "required": false
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "computer-adj",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  }
+                ]
+              },
+              {
+                "marginBottomClass": "mb-4",
+                "columns": [
+                  {
+                    "type": "label",
+                    "text": "Bar Loan Adj:",
+                    "required": false
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "bar-loan-adj",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  }
+                ]
+              },
+              {
+                "marginBottomClass": "mb-10",
+                "columns": [
+                  {
+                    "type": "label",
+                    "text": "Other Adj:",
+                    "required": false
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "other-adj",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  },
+                  {
+                    "type": "icon",
+                    "icon": "fas fa-file-pdf",
+                    "isAvailable": false
+                  },
+                  {
+                    "type": "label",
+                    "text": "High Income Debt Adj:",
+                    "required": false
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "high-income-debt-adj",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  }
+                ]
+              },
+              {
+                "marginBottomClass": "mb-4",
+                "columns": [
+                  {
+                    "type": "label",
+                    "text": "Calculated Eligible Debt:",
+                    "required": false
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "calculated-eligible-debt",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  },
+                  {
+                    "type": "icon",
+                    "icon": "fas fa-file-pdf",
+                    "isAvailable": false
+                  },
+                  {
+                    "type": "label",
+                    "text": "LRAP Eligible Debt:",
+                    "required": false
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "lrap-eligible-debt",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  }
+                ]
+              },
+              {
+                "marginBottomClass": "mb-4",
+                "columns": [
+                  {
+                    "type": "label",
+                    "text": "Negative Amoritization Start Amt:",
+                    "required": false
+                  },
+                  {
+                    "type": "icon_input",
+                    "name": "negative-amoritization-start-amt",
+                    "required": false,
+                    "placeholder": "0.00",
+                    "front_icon": "$",
+                    "back_icon": ".00"
+                  },
+                  {
+                    "type": "icon",
+                    "icon": "fas fa-file-pdf",
+                    "isAvailable": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "HTML_ROW",
+            "text": "<div class='col-md-12'><i style='font-size: 14px;'>Note: LRAP Eligible Debt is defaulted to the lowest value of either the Total Law Loans or the Calculated Eligible Debt.</i></div>"
+          },
+          {
+            "layout": "footer_buttons",
+            "buttons": [
+              {
+                "text": "Save",
+                "isLight": false,
+                "isSite": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Debt Information",
+        "PageMetaTitle": "Debt Information",
+        "NavName": "Debt Information",
+        "NavLink": "debt-information",
+        "NavChecked": false,
+        "Sections": [
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "Please list each loan on a separate line. Any monetary values should be whole numbers no more than eight digits long with no dollar signs, decimals, or commas. Monthly Payments should match loan bills. Please provide explanation on the Certification page if they do not."
+          },
+          {
+            "layout": "full",
+            "type": "HTML_P",
+            "text": "<span class=\"mr-10\"><span class=\"hd-required\">*</span> indicates a required filed</span>"
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "<span class=\"hd-required mr-2\">*</span>I have Non-Law School educational loans."
+              },
+              {
+                "type": "radio",
+                "name": "educational-loans",
+                "options": [
+                  {
+                    "label": "Yes",
+                    "checked": true
+                  },
+                  {
+                    "label": "No",
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "<span class=\"hd-required mr-2\">*</span>I have consolidated my Non-Law School loans with my Law School loans."
+              },
+              {
+                "type": "radio",
+                "name": "consolidated-school-loans",
+                "options": [
+                  {
+                    "label": "Yes",
+                    "checked": true
+                  },
+                  {
+                    "label": "No",
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "SCHOOL DEBT - APPLICANT"
+              }
+            ]
+          },
+          {
+            "layout": "table_advance",
+            "columns": [
+              {
+                "title": "Loan ID"
+              },
+              {
+                "title": "Loan Number"
+              },
+              {
+                "title": "Lender/Service Name"
+              },
+              {
+                "title": "Debt Type"
+              },
+              {
+                "title": "Original Principle"
+              },
+              {
+                "title": "Adjusted Original Principle"
+              },
+              {
+                "title": "Original Payment"
+              },
+              {
+                "title": "Adjusted Monthly Payment"
+              },
+              {
+                "title": "Interest Rate"
+              },
+              {
+                "title": "Currently in Forbearance Deferment?"
+              },
+              {
+                "title": "Due Date of First Payment"
+              },
+              {
+                "title": "Repayment Plan"
+              },
+              {
+                "title": "Original Date"
+              },
+              {
+                "title": "Consolidation"
+              }
+            ],
+            "rows": [
+              {
+                "data": [
+                  {
+                    "type": "plain_input",
+                    "name": "loan_id",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "loan_num",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "lender_name",
+                    "options": [
+                      {
+                        "label": "Fedloan Servicing",
+                        "value": "Fedloan Servicing",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "debt_type",
+                    "options": [
+                      {
+                        "label": "Law",
+                        "value": "Law",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_adj_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "adj_mnt_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "interest_rate",
+                    "value": "0.00",
+                    "inputType": "number"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "curr_defferment",
+                    "options": [
+                      {
+                        "label": "Yes",
+                        "value": "Yes",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "No",
+                        "value": "No",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "due_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "repayment_plan",
+                    "options": [
+                      {
+                        "label": "Graduated",
+                        "value": "Graduated",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "Stafford",
+                        "value": "Stafford",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "original_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "checkbox",
+                    "name": "remove_col"
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "plain_input",
+                    "name": "loan_id",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "loan_num",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "lender_name",
+                    "options": [
+                      {
+                        "label": "Fedloan Servicing",
+                        "value": "Fedloan Servicing",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "debt_type",
+                    "options": [
+                      {
+                        "label": "Law",
+                        "value": "Law",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_adj_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "adj_mnt_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "interest_rate",
+                    "value": "0.00",
+                    "inputType": "number"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "curr_defferment",
+                    "options": [
+                      {
+                        "label": "Yes",
+                        "value": "Yes",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "No",
+                        "value": "No",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "due_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "repayment_plan",
+                    "options": [
+                      {
+                        "label": "Graduated",
+                        "value": "Graduated",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "Stafford",
+                        "value": "Stafford",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "original_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "checkbox",
+                    "name": "remove_col"
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "plain_input",
+                    "name": "loan_id",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "loan_num",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "lender_name",
+                    "options": [
+                      {
+                        "label": "Fedloan Servicing",
+                        "value": "Fedloan Servicing",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "debt_type",
+                    "options": [
+                      {
+                        "label": "Law",
+                        "value": "Law",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_adj_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "adj_mnt_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "interest_rate",
+                    "value": "0.00",
+                    "inputType": "number"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "curr_defferment",
+                    "options": [
+                      {
+                        "label": "Yes",
+                        "value": "Yes",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "No",
+                        "value": "No",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "due_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "repayment_plan",
+                    "options": [
+                      {
+                        "label": "Graduated",
+                        "value": "Graduated",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "Stafford",
+                        "value": "Stafford",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "original_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "checkbox",
+                    "name": "remove_col"
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "plain_input",
+                    "name": "loan_id",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "loan_num",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "lender_name",
+                    "options": [
+                      {
+                        "label": "Fedloan Servicing",
+                        "value": "Fedloan Servicing",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "debt_type",
+                    "options": [
+                      {
+                        "label": "Law",
+                        "value": "Law",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_adj_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "adj_mnt_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "interest_rate",
+                    "value": "0.00",
+                    "inputType": "number"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "curr_defferment",
+                    "options": [
+                      {
+                        "label": "Yes",
+                        "value": "Yes",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "No",
+                        "value": "No",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "due_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "repayment_plan",
+                    "options": [
+                      {
+                        "label": "Graduated",
+                        "value": "Graduated",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "Stafford",
+                        "value": "Stafford",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "original_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "checkbox",
+                    "name": "remove_col"
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "plain_input",
+                    "name": "loan_id",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "loan_num",
+                    "value": "1",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "lender_name",
+                    "options": [
+                      {
+                        "label": "Fedloan Servicing",
+                        "value": "Fedloan Servicing",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "debt_type",
+                    "options": [
+                      {
+                        "label": "Law",
+                        "value": "Law",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_adj_principle",
+                    "value": "20000",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "org_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "adj_mnt_payment",
+                    "value": "0",
+                    "inputType": "text"
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "interest_rate",
+                    "value": "0.00",
+                    "inputType": "number"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "curr_defferment",
+                    "options": [
+                      {
+                        "label": "Yes",
+                        "value": "Yes",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "No",
+                        "value": "No",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "due_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "select",
+                    "required": false,
+                    "placeholder": null,
+                    "name": "repayment_plan",
+                    "options": [
+                      {
+                        "label": "Graduated",
+                        "value": "Graduated",
+                        "isSelected": false
+                      },
+                      {
+                        "label": "Stafford",
+                        "value": "Stafford",
+                        "isSelected": true
+                      }
+                    ],
+                    "isAvailable": true
+                  },
+                  {
+                    "type": "plain_input",
+                    "name": "original_date",
+                    "inputType": "date"
+                  },
+                  {
+                    "type": "checkbox",
+                    "name": "remove_col"
+                  }
+                ]
+              },
+              {
+                "data": [
+                  {
+                    "type": "text",
+                    "text": "Totals:",
+                    "style": "font-weight: bold; text-align: center;",
+                    "colspan": "5"
+                  },
+                  {
+                    "type": "text",
+                    "text": "122886"
+                  },
+                  {
+                    "type": "text",
+                    "text": "122886"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0"
+                  },
+                  {
+                    "type": "text",
+                    "text": "",
+                    "colspan": "5"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "button",
+            "text": "Add Applicant Debt",
+            "isLight": true,
+            "isSite": true
+          },
+          {
+            "layout": "full",
+            "type": "multiple_rows",
+            "rows": [
+              {
+                "type": "HTML_P",
+                "text": "SCHOOL DEBT - SPOUSE/DOMESTIC PARTNER"
+              }
+            ]
+          },
+          {
+            "layout": "table_advance",
+            "columns": [
+              {
+                "title": "Loan ID"
+              },
+              {
+                "title": "Loan Number"
+              },
+              {
+                "title": "Lender/Service Name"
+              },
+              {
+                "title": "Debt Type"
+              },
+              {
+                "title": "Original Principle"
+              },
+              {
+                "title": "Adjusted Original Principle"
+              },
+              {
+                "title": "Original Payment"
+              },
+              {
+                "title": "Adjusted Monthly Payment"
+              },
+              {
+                "title": "Interest Rate"
+              },
+              {
+                "title": "Currently in Forbearance Deferment?"
+              },
+              {
+                "title": "Due Date of First Payment"
+              },
+              {
+                "title": "Total Repayment Term (Months)"
+              }
+            ],
+            "rows": [
+              {
+                "data": [
+                  {
+                    "type": "text",
+                    "text": "Totals:",
+                    "style": "font-weight: bold; text-align: center;",
+                    "colspan": "5"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0"
+                  },
+                  {
+                    "type": "text",
+                    "text": "",
+                    "colspan": "3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layout": "full",
+            "type": "button",
+            "text": "Add Spouse/Domestic Partner Debt",
+            "isLight": true,
+            "isSite": true
+          },
+          {
+            "layout": "footer_buttons",
+            "buttons": [
+              {
+                "text": "Previous",
+                "isLight": true,
+                "isSite": false
+              },
+              {
+                "text": "Next",
+                "isLight": false,
+                "isSite": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Supporting Documentation",
+        "PageMetaTitle": "Supporting Documentation",
+        "NavName": "Supporting Documentation",
+        "NavLink": "supporting-documentation",
+        "NavChecked": false,
+        "Sections": [
+        ]
+      },
+      {
+        "Title": "Certification",
+        "PageMetaTitle": "Certification",
+        "NavName": "Certification",
+        "NavLink": "certification",
+        "NavChecked": false,
+        "Sections": [
+        ]
+      },
+      {
+        "Title": "Program Compliance Certification and Information Release",
+        "PageMetaTitle": "Compliance",
+        "NavName": "Compliance",
+        "NavLink": "compliance",
+        "NavChecked": false,
+        "Sections": [
+        ]
+      }
+    ]
+  }
+  

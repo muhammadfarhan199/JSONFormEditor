@@ -1,0 +1,201 @@
+<html>
+
+<head>
+    <title>JSON Tree View Editor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="libs/jsonTree.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="./css/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="./css/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="./css/system.css" rel="stylesheet" type="text/css" />
+    <link href="./css/base/light.css" rel="stylesheet" type="text/css" />
+    <link href="./css/menu/light.css" rel="stylesheet" type="text/css" />
+    <link href="./css/brand/dark.css" rel="stylesheet" type="text/css" />
+    <link href="./css/aside/dark.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="libs/jsonTree.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12">
+                <h4>JSON SCHEMA EDITOR</h4>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row" style="height: 90vh;">
+            <div class="col-2 border">
+                <div id="addBTNDiv">
+                    <button type="button" class="btn btn-primary mb-2" onclick="addNewPage();">Add New Form</button>
+                </div>
+                <!-- Screens -->
+                <div id="screensListWrapper">
+                </div>
+            </div>
+            <div class="col-10 border">
+                <!-- Editor View -->
+                <nav>
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-jsonViewer-tab" data-toggle="tab"
+                            href="#nav-jsonViewer" role="tab" aria-controls="nav-home" aria-selected="true">JSON
+                            Viewer</a>
+                        <a class="nav-item nav-link" id="nav-jsonEditor-tab" data-toggle="tab" href="#nav-jsonEditor"
+                            role="tab" aria-controls="nav-jsonEditor" aria-selected="false">JSON Editor</a>
+                        <a class="nav-item nav-link" id="nav-htmlPreview-tab" data-toggle="tab" href="#nav-htmlPreview"
+                            role="tab" aria-controls="nav-htmlPreview" aria-selected="false">HTML Preview</a>
+                    </div>
+                </nav>
+                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent" style="max-height: inherit;">
+                    <div class="tab-pane fade show active" id="nav-jsonViewer" role="tabpanel"
+                        aria-labelledby="nav-jsonViewer-tab">
+                        <div id="jsonTreeViewWrapper"></div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-jsonEditor" role="tabpanel" aria-labelledby="nav-jsonEditor-tab">
+                        <textarea rows="20" style="width: 100%;" id="jsonEditorTextArea"></textarea>
+                    </div>
+                    <div class="tab-pane fade" id="nav-htmlPreview" role="tabpanel"
+                        aria-labelledby="nav-htmlPreview-tab">
+                        <div id="main-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="wrapper"></div>
+
+    <script src="./template-engine.js"></script>
+    <script type="text/javascript">
+
+        var schemaJson;
+        var jsonTreeViewWrapper;
+        var currentElementIndex;
+
+        $(document).ready(function () {
+
+            jsonTreeViewWrapper = document.getElementById("jsonTreeViewWrapper");
+
+            $.getJSON("schema.json", function (json) {
+                // console.log(json);
+                schemaJson = json.Screens;
+            });
+
+            setTimeout(
+                function () {
+                    loadScreensFromSchema();
+
+                    if (schemaJson != null && schemaJson.length) {
+                        loadFormConfig(0);
+                    }
+                }, 1000);
+
+
+            $('#jsonEditorTextArea').on('blur', function () {
+                if (this.value.length) {
+                    textInputChanged();
+                }
+            });
+
+        });
+
+        function loadScreensFromSchema() {
+            var itemIndex = 0;
+            $('#screensListWrapper').empty();
+            $.each(schemaJson, function (key, item) {
+                $('#screensListWrapper').append('<div class="row mb-1"><div class="col-12"><a href="#" onclick="loadFormConfig(' + itemIndex + ');"><h6>' + item.Title + '</h6></a></div></div>');
+                itemIndex++;
+            });
+
+        }
+
+        function loadFormConfig(itemIndex) {
+
+            currentElementIndex = itemIndex;
+            $('#jsonTreeViewWrapper').empty();
+
+            var pageData = schemaJson[itemIndex];
+
+            //json tree view
+            var tree = jsonTree.create(pageData, jsonTreeViewWrapper);
+
+            //json text editor
+            var jsonString = JSON.stringify(pageData, undefined, 4);
+            $('#jsonEditorTextArea').val('');
+            $('#jsonEditorTextArea').val(jsonString);
+
+            //html viewer
+            //create new jsonData Object
+            $("#main-container").empty();
+            var displayJsonData = { "Screens": [pageData] };
+            loadHTMLPreview(displayJsonData);
+
+        }
+
+        function addNewPage() {
+
+            var sampleObj = new Object();
+            sampleObj.Title = "Sample Form";
+            sampleObj.PageMetaTitle = "Sample Form";
+            sampleObj.NavName = "Sample Form";
+            sampleObj.NavLink = "sample-form";
+            sampleObj.NavChecked = false;
+
+            var sampleSection = new Object();
+            sampleSection.layout = "full";
+            sampleSection.type = "HTML_P";
+            sampleSection.text = "This is a sample form. Add elements here.";
+            sampleObj.Sections = sampleSection;
+
+            schemaJson.push(sampleObj);
+
+            loadScreensFromSchema();
+        }
+
+        function textInputChanged() {
+            //check if new json is valid
+
+            var newJSON = $('#jsonEditorTextArea').val();
+
+            if (validateJSON(newJSON)) {
+
+                var newJSONObj = jQuery.parseJSON(newJSON);
+
+                //load back this updated json in current array
+                schemaJson[currentElementIndex] = newJSONObj;
+            }
+            else {
+                alert("Invalid JSON. Please fix JSON before saving.");
+            }
+
+            loadFormConfig(currentElementIndex);
+        }
+
+        function validateJSON(jsonString) {
+            var response = jQuery.parseJSON(jsonString);
+            if (typeof response == 'object') {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
